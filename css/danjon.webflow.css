@@ -302,6 +302,10 @@ strong {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  text-align: left;
 }
 
 .grid.is--hero {
@@ -422,7 +426,7 @@ strong {
 }
 
 .grid-item.is--narrow {
-  width: 68%;
+  width: 95%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -934,9 +938,13 @@ strong {
   padding-left: 2.08em;
 }
 
-.sub-text-line {
-  margin-top: 1.2em;
+.legal-text {
+  margin-top: 2em;
   margin-bottom: 1.2em;
+  line-height: 1.5;
+  text-align: left;
+  -o-object-fit: fill;
+  object-fit: fill;
 }
 
 .footer-link {
@@ -1177,6 +1185,15 @@ strong {
 
 .body-sub-pages {
   background-color: #f6f8fb;
+}
+
+.sublime-text {
+  margin-top: 2em;
+  margin-bottom: 1.2em;
+  line-height: 1;
+  text-align: center;
+  -o-object-fit: fill;
+  object-fit: fill;
 }
 
 @media screen and (max-width: 991px) {
